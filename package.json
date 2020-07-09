@@ -1,0 +1,41 @@
+{
+	"name": "daedalus-theme",
+	"version": "0.1.0",
+	"displayName": "Daedalus Theme",
+	"publisher": "mnxn",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mnxn/vscode-daedalus-theme.git"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Daedalus",
+				"uiTheme": "vs-dark",
+				"path": "./theme/daedalus-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "node ./build.js",
+		"watch": "npm-watch",
+		"package": "vsce package -o daedalus-theme.vsix",
+		"vscode:prepublish": "npm run build"
+	},
+	"watch": {
+		"build": "src/daedalus-theme.yml"
+	},
+	"devDependencies": {
+		"js-yaml": "^3.14.0",
+		"npm-watch": "^0.6.0",
+		"vsce": "^1.77.0"
+	}
+}
