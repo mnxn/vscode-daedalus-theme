@@ -51,8 +51,8 @@ colors:
   tab.inactiveBackground: "#252526"
   tab.border: "#00000000"
 
-  editor.selectionBackground: "#333333"
-  editor.lineHighlightBorder: "#333333"
+  editor.selectionBackground: "#444444"
+  editor.lineHighlightBorder: "#444444"
 
   terminal.background: "#111111"
 
