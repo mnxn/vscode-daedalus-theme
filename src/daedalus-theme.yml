@@ -13,7 +13,7 @@ daedalus-colors:
     - &GREEN "#7bd1bf"
     - &PINK "#eb70a5"
     - &YELLOW "#E2E29C"
-    - &ORANGE "#dc897a"
+    - &ORANGE "#E68270"
     - &CYAN "#61c2e0"
 
   brightOther:
