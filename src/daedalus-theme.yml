@@ -9,12 +9,12 @@ daedalus-colors:
     - &COMMENT "#6C7986"
     - &RED "#FF5555"
 
-    - &PURPLE "#b490da"
-    - &GREEN "#7bd1bf"
-    - &PINK "#eb70a5"
+    - &PURPLE "#B490DA"
+    - &GREEN "#7BD1BF"
+    - &PINK "#Eb70A5"
     - &YELLOW "#E2E29C"
     - &ORANGE "#E68270"
-    - &CYAN "#61c2e0"
+    - &CYAN "#61C2E0"
 
   brightOther:
     # Temporary (awaiting fix)
