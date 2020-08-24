@@ -539,6 +539,17 @@ tokenColors:
     settings:
       foreground: *PINK
 
+  - name: Dot
+    scope:
+      - punctuation.dot
+      - punctuation.accessor
+      - punctuation.separator.dot-access
+      - punctuation.separator.method
+      - punctuation.separator.period
+      - punctuation.other.period
+    settings:
+      foreground: *PINK
+
   # =============================================================================
   # Serializable / Config Langages
   # =============================================================================
