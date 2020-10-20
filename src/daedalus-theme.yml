@@ -343,6 +343,15 @@ tokenColors:
     settings:
       foreground: *PINK
 
+  - name: OCaml Literals
+    scope:
+      - constant.language.unit.ocaml
+      - constant.language.array.ocaml
+      - constant.language.list.ocaml
+    settings:
+      foreground: *PURPLE
+      fontStyle: bold
+
   # =============================================================================
   # Entities
   # =============================================================================
