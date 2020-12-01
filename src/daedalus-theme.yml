@@ -348,10 +348,15 @@ tokenColors:
       - constant.language.unit.ocaml
       - constant.language.array.ocaml
       - constant.language.list.ocaml
-      - string.quoted.single.ocaml
     settings:
       foreground: *PURPLE
       fontStyle: bold
+
+  - name: OCaml Character
+    scope:
+      - string.quoted.single.ocaml
+    settings:
+      foreground: *PURPLE
 
   # =============================================================================
   # Entities
