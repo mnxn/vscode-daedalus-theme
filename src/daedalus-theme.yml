@@ -630,6 +630,14 @@ tokenColors:
     settings:
       foreground: *CYAN
 
+  - name: Weak Types
+    scope:
+      - storage.type.weak.ocaml
+      - storage.type.weak
+    settings:
+      foreground: *CYAN
+      fontStyle: italic
+
   - name: Generics, templates, and mapped type declarations
     scope:
       - entity.name.type.type-parameter
