@@ -352,12 +352,6 @@ tokenColors:
       foreground: *PURPLE
       fontStyle: bold
 
-  - name: OCaml Character
-    scope:
-      - string.quoted.single.ocaml
-    settings:
-      foreground: *PURPLE
-
   # =============================================================================
   # Entities
   # =============================================================================
