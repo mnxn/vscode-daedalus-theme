@@ -565,6 +565,14 @@ tokenColors:
     settings:
       foreground: *PINK
 
+  - name: Semicolon
+    scope:
+      - punctuation.terminator
+      - punctuation.terminator.statement
+      - punctuation.semi
+    settings:
+      foreground: *PINK
+
   # =============================================================================
   # Serializable / Config Langages
   # =============================================================================
@@ -609,6 +617,7 @@ tokenColors:
   - name: Types
     scope:
       - entity.name.type
+      - variable.other.enummember
       - keyword.primitive-datatypes.swift
       - keyword.type.cs
       - meta.protocol-list.objc
