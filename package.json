@@ -1,6 +1,6 @@
 {
 	"name": "daedalus-theme",
-	"version": "0.1.9",
+	"version": "0.2.0",
 	"displayName": "Daedalus Theme",
 	"publisher": "mnxn",
 	"license": "MIT",
@@ -34,8 +34,8 @@
 		"build": "src/daedalus-theme.yml"
 	},
 	"devDependencies": {
-		"js-yaml": "3.14.0",
+		"js-yaml": "4.0.0",
 		"npm-watch": "0.7.0",
-		"vsce": "1.81.1"
+		"vsce": "1.83.0"
 	}
 }
