@@ -11,7 +11,7 @@ daedalus-colors:
 
     - &PURPLE "#B490DA"
     - &GREEN "#7BD1BF"
-    - &PINK "#Eb70A5"
+    - &PINK "#EB70A5"
     - &YELLOW "#E2E29C"
     - &ORANGE "#E68270"
     - &CYAN "#61C2E0"
@@ -754,6 +754,18 @@ tokenColors:
       - string.quoted.docstring.multi.python constant.character.escape
     settings:
       foreground: *COMMENT
+
+  - name: Characters
+    scope:
+      - constant.character
+      - constant.char
+      - constant.other.rune
+      - string.quoted.rune
+      - string.quoted.rune punctuation.definition.string.begin
+      - string.quoted.rune punctuation.definition.string.end
+      - string.quoted.single.ocaml
+    settings:
+      foreground: *YELLOW
 
   # =============================================================================
   # Variables

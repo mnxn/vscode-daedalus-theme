@@ -26,7 +26,7 @@
 	},
 	"scripts": {
 		"build": "node ./build.js",
-		"watch": "npm-watch",
+		"watch": "npm-watch build",
 		"package": "vsce package -o daedalus-theme.vsix",
 		"vscode:prepublish": "npm run build"
 	},
