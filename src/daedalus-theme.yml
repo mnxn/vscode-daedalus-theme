@@ -567,6 +567,12 @@ tokenColors:
     settings:
       foreground: *PINK
 
+  - name: Comma
+    scope:
+      - punctuation.other.comma
+    settings:
+      foreground: *PINK
+
   - name: Extra operators
     scope:
       - meta.colon.scala
