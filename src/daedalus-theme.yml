@@ -765,7 +765,7 @@ tokenColors:
       - string.quoted.rune punctuation.definition.string.end
       - string.quoted.single.ocaml
     settings:
-      foreground: *YELLOW
+      foreground: *PURPLE
 
   # =============================================================================
   # Variables
