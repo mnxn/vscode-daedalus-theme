@@ -571,12 +571,14 @@ tokenColors:
     scope:
       - meta.colon.scala
       - punctuation.other.colon
+      - punctuation.separator.delimiter.colon
     settings:
       foreground: *PINK
 
   - name: Comma
     scope:
       - punctuation.other.comma
+      - punctuation.separator.delimiter.c
     settings:
       foreground: *PINK
 
