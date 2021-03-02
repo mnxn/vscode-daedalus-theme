@@ -572,6 +572,7 @@ tokenColors:
       - meta.colon.scala
       - punctuation.other.colon
       - punctuation.separator.delimiter.colon
+      - punctuation.separator.colon
     settings:
       foreground: *PINK
 
