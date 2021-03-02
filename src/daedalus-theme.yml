@@ -578,6 +578,7 @@ tokenColors:
   - name: Comma
     scope:
       - punctuation.other.comma
+      - punctuation.separator.delimiter.comma
       - punctuation.separator.delimiter.c
     settings:
       foreground: *PINK
