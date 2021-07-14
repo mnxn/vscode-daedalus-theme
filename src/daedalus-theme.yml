@@ -59,33 +59,22 @@ colors:
   statusBar.background: "#333333"
   statusBar.noFolderBackground: "#333333"
 
-# Syntaxes
+semanticTokenColors:
+  namespace: *CYAN
+  type: *CYAN
+  struct: *CYAN
+  class: *CYAN
+  interface: *CYAN
+  enum: *CYAN
+
+  function: *GREEN
+  macro: *GREEN
+
+  parameter: *ORANGE
+
+  semicolon: *PINK
+
 tokenColors:
-  # =============================================================================
-  # Semantic tokens
-  # =============================================================================
-
-  - scope:
-      - namespace
-      - type
-      - struct
-      - class
-      - interface
-      - enum
-    settings:
-      foreground: *CYAN
-
-  - scope:
-      - function
-      - macro
-    settings:
-      foreground: *GREEN
-
-  - scope:
-      - parameter
-    settings:
-      foreground: *ORANGE
-
   # =============================================================================
   # General
   # =============================================================================
