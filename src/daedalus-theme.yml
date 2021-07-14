@@ -73,6 +73,7 @@ semanticTokenColors:
   parameter: *ORANGE
 
   semicolon: *PINK
+  comma: *PINK
 
 tokenColors:
   # =============================================================================
