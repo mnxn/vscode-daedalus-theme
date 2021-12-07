@@ -765,6 +765,12 @@ tokenColors:
   # Variables
   # =============================================================================
 
+  - name: Variables names
+    scope:
+      - variable.other.declaration
+    settings:
+      foreground: *GREEN
+
   - name: Variables and object properties
     scope:
       - variable
