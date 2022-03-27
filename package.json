@@ -1,6 +1,6 @@
 {
 	"name": "daedalus-theme",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"displayName": "Daedalus Theme",
 	"publisher": "mnxn",
 	"license": "MIT",
@@ -9,7 +9,7 @@
 		"url": "https://github.com/mnxn/vscode-daedalus-theme.git"
 	},
 	"engines": {
-		"vscode": "^1.58.0"
+		"vscode": "^1.58.0" 
 	},
 	"categories": [
 		"Themes"
@@ -36,6 +36,6 @@
 	"devDependencies": {
 		"js-yaml": "4.1.0",
 		"npm-watch": "0.11.0",
-		"vsce": "2.6.7"
+		"vsce": "2.7.0"
 	}
 }
