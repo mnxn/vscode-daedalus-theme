@@ -542,10 +542,11 @@ tokenColors:
     scope:
       - punctuation.dot
       - punctuation.accessor
+      - punctuation.other.period
       - punctuation.separator.dot-access
       - punctuation.separator.method
       - punctuation.separator.period
-      - punctuation.other.period
+      - punctuation.separator.java
     settings:
       foreground: *PINK
 
