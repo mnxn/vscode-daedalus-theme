@@ -61,19 +61,28 @@ colors:
 
 semanticTokenColors:
   namespace: *CYAN
-  type: *CYAN
-  struct: *CYAN
   class: *CYAN
   interface: *CYAN
+  struct: *CYAN
+  typeParameter: *CYAN
+  type: *CYAN
   enum: *CYAN
+  enumMember: *PURPLE
 
   function: *GREEN
+  method: *GREEN
   macro: *GREEN
 
   parameter: *ORANGE
 
+  string: *YELLOW
+  number: *PURPLE
+
+  keyword: *PINK
   semicolon: *PINK
   comma: *PINK
+
+  comment: *COMMENT
 
 tokenColors:
   # =============================================================================
