@@ -570,8 +570,10 @@ tokenColors:
     scope:
       - punctuation.comma
       - punctuation.other.comma
+      - punctuation.separator.comma
       - punctuation.separator.delimiter.comma
       - punctuation.separator.delimiter.c
+      - punctuation.separator.delimiter.java
     settings:
       foreground: *PINK
 
