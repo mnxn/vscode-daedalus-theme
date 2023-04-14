@@ -547,43 +547,18 @@ tokenColors:
     settings:
       foreground: *PINK
 
-  - name: Dot
+  - name: Punctuation
     scope:
-      - punctuation.dot
       - punctuation.accessor
-      - punctuation.other.period
-      - punctuation.separator.dot-access
-      - punctuation.separator.method
-      - punctuation.separator.period
-      - punctuation.separator.java
-    settings:
-      foreground: *PINK
-
-  - name: Semicolon
-    scope:
-      - punctuation.terminator
-      - punctuation.terminator.statement
-      - punctuation.semi
-    settings:
-      foreground: *PINK
-
-  - name: Colon
-    scope:
-      - meta.colon.scala
-      - punctuation.other.colon
-      - punctuation.separator.delimiter.colon
-      - punctuation.separator.colon
-    settings:
-      foreground: *PINK
-
-  - name: Comma
-    scope:
       - punctuation.comma
+      - punctuation.dot
+      - punctuation.other.colon
       - punctuation.other.comma
-      - punctuation.separator.comma
-      - punctuation.separator.delimiter.comma
-      - punctuation.separator.delimiter.c
-      - punctuation.separator.delimiter.java
+      - punctuation.other.period
+      - punctuation.semi
+      - punctuation.separator
+      - punctuation.terminator
+      - punctuation.terminator
     settings:
       foreground: *PINK
 
